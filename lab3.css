@@ -1,0 +1,147 @@
+.bkgimg {
+    background-image: url(science.jpg);
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    width: 100%;
+    height: 600px;
+    text-align: center;
+}
+
+.home {
+    background-image: url(science.jpg);
+    background-size: 100% 100%;
+    
+}
+
+.homepage h1 {
+    font-weight: bold;
+    color:rgb(12, 132, 231)
+}
+
+.hset {
+    padding-top: 200px;
+    box-sizing: border-box;
+}
+
+.hset h2 {
+    font-size: 42px;
+}
+
+.hset h1 {
+    font-size: 72px;
+    font-weight: bold;
+    color:rgb(247, 64, 95)
+}
+
+.rowsettting {
+    margin: 80px 0px;
+    padding-top: 100px;
+}
+
+.homepage h1 {
+    padding-top: 50px;
+}
+.homepage h2{
+    color:rgb(61, 33, 11)
+}
+
+.homepage p {
+    padding-bottom: 50px;
+}
+
+.rowsettting h2 {
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 30px;
+    color:rgb(12, 132, 231)
+}
+.rowsettting h3{
+    color:rgb(1, 5, 10)
+
+}
+
+.rowsettting p {
+    padding: 10px;
+}
+
+.about h1 {
+    font-weight: bold;
+    padding-top: 50px;
+    text-align: center;
+    color:rgb(12, 132, 231)
+}
+
+
+.about p {
+    text-align: center;
+    padding-bottom: 50px;
+    color:rgb(12, 132, 231)
+}
+
+.aboutus {
+    background-image: url(science.jpg);
+    background-size: 100% 100%;
+    
+}
+
+.rowfire h2 {
+    text-align: center;
+    color:rgb(4, 22, 23)
+}
+
+.rowset {
+    padding-bottom: 50px;
+}
+
+.contactus h1 {
+    font-weight: bold;
+    text-align: center;
+    padding-top: 50px;
+    color:rgb(0, 110, 255)
+}
+
+
+
+.contactus {
+    height: 300px;
+    background-image: url(im.jpeg);
+    background-size: 100% 100%;
+}
+
+.contactus h5 {
+    text-align: center;
+}
+
+@media (min-width:575px) and (max-width:767px) {
+    .contactus {
+        height: 300px;
+        background-image: url(science.jpg);
+        background-size: 100% 100%;
+        background-attachment: fixed;
+    }
+}
+
+@media (min-width:460px) and (max-width:574px) {
+    .contactus {
+        height: 300px;
+        background-image: url(im.jpeg);
+        background-size: 100% 100%;
+    }
+}
+
+@media (max-width:479px) {
+    .hset h2 {
+        font-size: 42px;
+    }
+
+    .hset h1 {
+        font-size: 72px;
+        font-weight: bold;
+    }
+
+    .contactus {
+        height: 350px;
+        background-image: url(im.jpeg);
+        background-size: 100% 100%;
+    }
+}
